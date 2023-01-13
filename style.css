@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+    background-color: #562EFF;
+}
+.header{
+    margin: 0 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo h1{
+    color: white;
+}
+
+.logo img{
+    width: 56px;
+    height: 60px;
+}
+
+.menu-ber{
+    display: flex;
+    align-content: center;
+    gap: 35px;
+}
+
+.menu-ber img{
+    width: 56px;
+    height: 56px;
+}
+
+.menu-ber ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.menu-ber ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
