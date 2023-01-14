@@ -1,7 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
+html{
+    background-color: #9F9F9F;}
+
+/* Header css start */
+
 .header-area{
     background-color: #562EFF;
 }
@@ -50,3 +56,123 @@
     font-size: 20px;
     color: white;
 }
+
+/* Header css end */
+
+/* Players css Start */
+.top-player-and-blogs{
+    background-color: #fff;
+    margin: 30px 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 40px 0 ;
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 40px 0 ;
+}
+.single-blogs{
+    display: flex;
+    gap: 20px;
+}
+
+.single-blogs img{
+    width: 224px;
+    height: 127px;
+}
+.text{
+     display: flex;
+     flex-direction: column;
+    justify-content: space-around;
+}
+.text h4, p{
+    font-size: 20px;
+}
+
+.hr{
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+.top{
+    margin: 20px ;
+    color: #562EFF;
+}
+.by{
+    color: #9F9F9F;
+}
+/* Players css End */
+
+/* Letes Course css Start */
+.letes-course-area{
+    background-color: #fff;
+    margin: 30px 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.letes-course{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.single-course{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.image img{
+    width: 200px;
+    height: 100px;
+}
+
+.ratingPointHour{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    align-items: center;
+    gap: 1px;
+}
+.course-ttile h4{
+    font-size: 20px;
+}
+.course-ttile p{
+    color: #ED6B4F;
+}
+.fa-star{
+    color: #FFC014;
+}
+.fa-star-half{
+    color: #AEAEAE;
+}
+.hour {
+    background-color: #FF4A60;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+/* Letes Course css End */
+
